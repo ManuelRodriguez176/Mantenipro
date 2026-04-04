@@ -1,0 +1,32 @@
+/* ===== CONFIG SCREEN ===== */
+#screen-config {
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-deep);
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.config-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 2.5rem;
+  width: 100%;
+  max-width: 480px;
+}
+
+.config-card h1 {
+  font-family: var(--font-head);
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: var(--text-1);
+}
+
+.config-card p {
+  color: var(--text-2);
+  font-size: 13px;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
